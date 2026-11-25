@@ -1,0 +1,17 @@
+# Credentials & local environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Large local datasets, indexes, and run outputs (share indexes via cloud link)
+data_files/
+index_files/
+eval_outputs/
+dataset/
+*.sqlite
+*.faiss
+*.npy
+*.parquet
